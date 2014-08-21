@@ -1,0 +1,12 @@
+diff -Naur gsettings-desktop-schemas-3.10.1.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in gsettings-desktop-schemas-3.10.1/schemas/org.gnome.desktop.background.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.10.1.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in	2013-11-26 05:27:07.000000000 +0000
++++ gsettings-desktop-schemas-3.10.1/schemas/org.gnome.desktop.background.gschema.xml.in.in	2013-11-26 05:29:54.909220142 +0000
+@@ -57,7 +57,7 @@
+       </_description>
+     </key>
+     <key name="show-desktop-icons" type="b">
+-      <default>false</default>
++      <default>true</default>
+       <_summary>Have file manager handle the desktop</_summary>
+       <_description>
+         If set to true, then file manager will draw the icons on the desktop.

@@ -1,0 +1,12 @@
+diff -Naur gsettings-desktop-schemas-3.8.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in gsettings-desktop-schemas-3.8.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.8.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2012-06-01 23:55:44.000000000 +0700
++++ gsettings-desktop-schemas-3.8.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2013-04-18 21:13:07.805329504 +0700
+@@ -188,7 +188,7 @@
+       </_description>
+     </key>
+     <key name="theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'Manokwari'</default>
+       <_summary>Current theme</_summary>
+       <_description>
+         The theme determines the appearance of window borders, titlebar,

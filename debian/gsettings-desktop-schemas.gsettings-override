@@ -1,0 +1,7 @@
+[org.gnome.desktop.background]
+show-desktop-icons=false
+picture-uri='file:///usr/share/backgrounds/contex/anambas.xml'
+
+[org.gnome.desktop.default-applications.terminal]
+exec='x-terminal-emulator'
+exec-arg='-e'

@@ -1,0 +1,340 @@
+gsettings-desktop-schemas (3.10.1-0blankon9+edusantara1) anambas; urgency=low
+
+  * Make Edusantara Anambas default wallpaper
+
+ -- Mahyuddin <yudi.al@gmail.com>  Thu, 21 Aug 2014 21:39:56 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon9) suroboyo; urgency=low
+
+  * Fix wallpaper not show in default
+
+ -- Mahyuddin Ramli <yudi.al@gmail.com>  Thu, 13 Feb 2014 00:29:48 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon8) suroboyo; urgency=low
+
+  * Path to /usr/share/gnome-background-properties/blankon-wallpapers.xml 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 12 Feb 2014 17:52:17 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon7) suroboyo; urgency=medium
+
+  * Change wallpaper to Contextual.
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Thu, 06 Feb 2014 18:07:05 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon6) suroboyo; urgency=medium
+
+  * Changes default wallpaper to Tugu_pahlawan.png
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 01 Jan 2014 01:12:57 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon5) suroboyo; urgency=medium
+
+  * Change gsettings-desktop-schemas.gsettings-override
+    - picture-uri='file:///usr/share/backgrounds/Evening.png'
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 31 Dec 2013 23:12:53 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon4) suroboyo; urgency=low
+
+  * Drop 209-blankon_fix_background.patch
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 26 Nov 2013 18:31:10 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon3) suroboyo; urgency=low
+
+  * 209-blankon_fix_background.patch : fix bacground 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 26 Nov 2013 05:32:57 +0000
+
+gsettings-desktop-schemas (3.10.1-0blankon2) suroboyo; urgency=low
+
+  * patch 03-blankon-setting-interface.patch : disable animation
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 07 Nov 2013 22:54:13 +0700
+
+gsettings-desktop-schemas (3.10.1-0blankon1) suroboyo; urgency=low
+
+  * New upstream release
+
+ -- Mahyuddin Ramli <yudi.al@gmail.com>  Sat, 19 Oct 2013 20:32:04 +0700
+
+gsettings-desktop-schemas (3.10.0-1blankon3) suroboyo; urgency=low
+
+  * Refresh git_revert_menu_icon_removal_key
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sun, 29 Sep 2013 14:53:23 +0700
+
+gsettings-desktop-schemas (3.10.0-1blankon2) suroboyo; urgency=low
+
+  * Fix gnome-settings-daemon not run because upstream remove menu-icon-key
+    - Added git_revert_menu_icon_removal_key.patch
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sun, 29 Sep 2013 14:23:56 +0700
+
+gsettings-desktop-schemas (3.10.0-1blankon1) suroboyo; urgency=low
+
+  * New Upstream release 
+  * debian/patche Drop 01_no_metacity_theme.patch
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sat, 28 Sep 2013 21:45:52 +0700
+
+gsettings-desktop-schemas (3.8.0-1blankon5) suroboyo; urgency=low
+
+  * replace 99-theme-Manokwari-default.patch 3.8.0
+
+ -- mijortsa <<azis.astrojim@surabaya.di.blankon.in>  Thu, 18 Apr 2013 21:16:27 +0700
+
+gsettings-desktop-schemas (3.8.0-1blankon4) suroboyo; urgency=low
+
+  * remove 99-theme-Semanggi-default.patch
+  * added 99-theme-Manokwari-default.patch
+  * edit 03-blankon-setting-interface.patch :
+    - Semanggi to Manokwari
+  * edit series :
+    - 99-theme-Semanggi-default.patch to 99-theme-Manokwari-default.patch
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Mon, 15 Apr 2013 23:31:28 +0700
+
+gsettings-desktop-schemas (3.8.0-1blankon3) suroboyo; urgency=low
+
+  * debian/patches:
+    - Refresh 03-blankon-setting-interface.patch
+    - Refresh 102-blankon-default-wallpaper.patch
+    - Added git_revert_background_key_removal.patch
+    - Added git_revert_notifications_key_removal.patch
+  * debian/gsettings-desktop-schemas.gsettings-override
+    - Added org.gnome.desktop.background
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Fri, 12 Apr 2013 17:33:41 +0700
+
+gsettings-desktop-schemas (3.8.0-1blankon2) suroboyo; urgency=low
+
+  * debian/patch
+    - 99-theme-Krawu-default.patch to 99-theme-Semanggi-default.patch
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 Mar 2013 14:16:14 +0700
+
+gsettings-desktop-schemas (3.8.0-1blankon1) suroboyo; urgency=low
+
+  * new upstream release
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 Mar 2013 14:05:53 +0700
+
+gsettings-desktop-schemas (3.8.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/control.in:
+    + Add breaks on gnome-shell (<< 3.7.90). Closes: #701619.
+    + Add breaks on gnome-settings-daemon (<< 3.7.90) and
+      nautilus (<< 3.7.92) for the draw-background key removal.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 26 Mar 2013 15:53:06 +0100
+
+gsettings-desktop-schemas (3.7.90-1) experimental; urgency=low
+
+  [ Josselin Mouette ]
+  * 01_no_metacity_theme.patch: new patch. Do not convert the metacity 
+    theme, because we don’t convert other theme settings, and Clearlooks 
+    doesn’t exist anymore.
+  * gsettings-desktop-schemas.gsettings-override:
+    - Call x-terminal-emulator -e instead of -x. Closes: #693894.
+
+  [ Jeremy Bicha ]
+  * New upstream release
+
+  [ Emilio Pozuelo Monfort ]
+  * Release to experimental.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Sun, 24 Feb 2013 14:30:26 +0100
+
+gsettings-desktop-schemas (3.6.0-1) experimental; urgency=low
+
+  [ Jeremy Bicha ]
+  * debian/gsettings-desktop-schemas.gsettings-override:
+    - Use x-terminal-emulator as default terminal
+
+  [ Sjoerd Simons ]
+  * New upstream release (3.6.0)
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 14 Oct 2012 18:54:07 +0200
+
+gsettings-desktop-schemas (3.4.2-1) unstable; urgency=low
+
+  * New upstream translation release.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 15 May 2012 19:52:56 +0200
+
+gsettings-desktop-schemas (3.4.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 19 Apr 2012 02:29:11 +0200
+
+gsettings-desktop-schemas (3.4.1-1) experimental; urgency=low
+
+  * New upstream translation release.
+  * Add Vcs-* fields.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 16 Apr 2012 17:31:25 +0200
+
+gsettings-desktop-schemas (3.4.0-1) experimental; urgency=low
+
+  [ Michael Biebl ]
+  * New upstream release.
+  * debian/watch: Track stable releases.
+  * debian/copyright: Update to the final copyright format 1.0 spec.
+  * Bump Standards-Versions to 3.9.3.
+  * Bump debhelper compatibility level to 8.
+  * Strip debian/tmp/ from .install files.
+
+  [ Jeremy Bicha ]
+  * debian/control.in:
+    - Bump build-depends on glib to 2.31.0.
+    - Add gobject-introspection build-depends.
+    - Use arch "any" for gsettings-desktop-schemas-dev
+  * Add new gir1.2-gdesktopenums-3.0 package.
+
+  [ Steve Langasek ]
+  * Mark gesttings-desktop-schemas Multi-Arch: foreign.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 28 Mar 2012 23:05:55 +0200
+
+gsettings-desktop-schemas (3.2.0-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 12 Nov 2011 13:46:32 +0100
+
+gsettings-desktop-schemas (3.2.0-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Wed, 26 Oct 2011 13:50:23 +0200
+
+gsettings-desktop-schemas (3.0.1-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Sebastien Bacher <seb128@debian.org>  Wed, 18 May 2011 17:00:12 +0200
+
+gsettings-desktop-schemas (3.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Emilio Pozuelo Monfort]
+  * debian/gsettings-desktop-schemas.install:
+    + Ship the translations.
+
+ -- Frederic Peters <fpeters@debian.org>  Sun, 10 Apr 2011 14:54:19 +0200
+
+gsettings-desktop-schemas (2.91.92-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Sat, 26 Mar 2011 08:22:10 +0000
+
+gsettings-desktop-schemas (2.91.92-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Frederic Peters <fpeters@debian.org>  Mon, 21 Mar 2011 22:14:51 +0100
+
+gsettings-desktop-schemas (2.91.91-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/patches/01_debian_screensaver.patch: removed, as gnome-screensaver
+    2.91.91 removed theming support.
+
+ -- Frederic Peters <fpeters@debian.org>  Sun, 13 Mar 2011 22:46:09 +0100
+
+gsettings-desktop-schemas (0.1.7-2) experimental; urgency=low
+
+  * debian/patches/01_debian_screensaver.patch: schema migrated from
+    gnome-screensaver, patch to set the Debian screensaver as default.
+
+ -- Frederic Peters <fpeters@debian.org>  Tue, 22 Feb 2011 21:42:40 +0100
+
+gsettings-desktop-schemas (0.1.7-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 22 Feb 2011 20:05:48 +0000
+
+gsettings-desktop-schemas (0.1.5-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 08 Feb 2011 22:39:11 +0000
+
+gsettings-desktop-schemas (0.1.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 10 Jan 2011 23:01:29 +0000
+
+gsettings-desktop-schemas (0.1.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/rules:
+    - Unconditionally include gnome-get-source.mk.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Thu, 23 Dec 2010 12:40:25 +0000
+
+gsettings-desktop-schemas (0.1.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/control.in:
+    - Build depend on intltool.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 01 Dec 2010 23:29:57 +0100
+
+gsettings-desktop-schemas (0.1.1-1) experimental; urgency=low
+
+  * Initial Debian release, packaging taken from Ubuntu. Closes: #603935.
+  * debian/control.in,
+    debian/rules:
+    - GNOMEify.
+  * debian/control:
+    - Wrap dependencies.
+    - Put the binary packages into the gnome section.
+  * New upstream release.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Thu, 18 Nov 2010 17:34:35 +0100
+
+gsettings-desktop-schemas (0.1.0-0ubuntu1) natty; urgency=low
+
+  * debian/control:
+    - Drop Vcs-Bzr line
+    - Build for all architectures
+    - Use http://www.gnome.org as homepage
+  * debian/source/format:
+    - Use 3.0 (quilt)
+
+  [ Michael Terry ]
+  * debian/copyright:
+    - Rewrite to be DEP-5 formatted
+
+ -- Rodrigo Moya <rodrigo.moya@canonical.com>  Fri, 05 Nov 2010 17:22:35 +0100
+
+gsettings-desktop-schemas (0.1.0-0ubuntu1~maverick~ppa1) maverick; urgency=low
+
+  * Package version change upload only
+
+ -- Rodrigo Moya <rodrigo.moya@canonical.com>  Tue, 02 Nov 2010 16:46:53 +0100
+
+gsettings-desktop-schemas (0.1.0) maverick; urgency=low
+
+  * New upstream release:
+    - Relicense to LGPLv2+
+    - Set things up for translation
+    - Add a GConf conversion script
+    - Misc schema updates
+
+ -- Rodrigo Moya <rodrigo.moya@canonical.com>  Tue, 02 Nov 2010 16:24:19 +0100
+
+gsettings-desktop-schemas (0.0.1) maverick; urgency=low
+
+  * Initial release.
+
+ -- Rodrigo Moya <rodrigo.moya@canonical.com>  Tue, 02 Nov 2010 12:00:51 +0100

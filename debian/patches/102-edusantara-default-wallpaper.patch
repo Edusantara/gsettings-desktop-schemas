@@ -1,0 +1,12 @@
+diff -Naur gsettings-desktop-schemas-3.8.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in gsettings-desktop-schemas-3.8.0/schemas/org.gnome.desktop.background.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.8.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in	2013-04-12 17:05:23.967056824 +0700
++++ gsettings-desktop-schemas-3.8.0/schemas/org.gnome.desktop.background.gschema.xml.in.in	2013-04-12 17:31:19.733011954 +0700
+@@ -10,7 +10,7 @@
+       </_description>
+     </key>
+     <key name="picture-uri" type="s">
+-      <default>'file://@datadir@/themes/Adwaita/backgrounds/adwaita-timed.xml'</default>
++      <default>'file://@datadir@/gnome-background-properties/edusantara-wallpapers.xml'</default>
+       <_summary>Picture URI</_summary>
+       <_description>
+         URI to use for the background image. Note that the backend only supports

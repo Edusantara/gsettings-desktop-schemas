@@ -1,0 +1,12 @@
+diff -Naur gsettings-desktop-schemas-3.4.2.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in gsettings-desktop-schemas-3.4.2/schemas/org.gnome.desktop.sound.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.4.2.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2012-05-20 05:26:01.730372562 +0700
++++ gsettings-desktop-schemas-3.4.2/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2012-05-20 05:26:23.642371441 +0700
+@@ -7,7 +7,7 @@
+       <_description>Whether to play sounds on user events.</_description>
+     </key>
+     <key name="theme-name" type="s">
+-      <default>'freedesktop'</default>
++      <default>'blankon'</default>
+       <_summary>Sound theme name</_summary>
+       <_description>The XDG sound theme to use for event sounds.</_description>
+     </key>

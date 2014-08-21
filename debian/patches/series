@@ -1,0 +1,9 @@
+02-blankon-sound.patch
+03-blankon-setting-interface.patch
+99-theme-Manokwari-default.patch
+100-blankon-migrate-background.patch
+git_revert_background_key_removal.patch
+102-edusantara-default-wallpaper.patch
+git_revert_notifications_key_removal.patch
+git_revert_menu_icon_removal_key.patch
+#209-blankon_fix_background.patch
